@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "hashicorp-learn"
+    organization = "dcwds"
 
     workspaces {
-      name = "learn-terraform-pipelines-vault"
+      name = "tf-pipelines-vault"
     }
   }
   required_providers {
